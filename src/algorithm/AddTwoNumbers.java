@@ -1,6 +1,5 @@
 package algorithm;
 
-import javax.lang.model.type.NullType;
 
 /**
  * 2. Add Two Numbers
