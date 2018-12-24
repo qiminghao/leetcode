@@ -24,6 +24,8 @@ public class AddTwoNumbers {
 		AddTwoNumbers obj = new AddTwoNumbers();
 		ListNode l1 = generateLinkedList(new int[] { 2, 4, 3 });
 		ListNode l2 = generateLinkedList(new int[] { 5, 6, 4 });
+		printLinkedList(l1);
+		printLinkedList(l2);
 		ListNode res = obj.addTwoNumbers(l1, l2);
 		printLinkedList(res);
 	}
@@ -78,6 +80,7 @@ public class AddTwoNumbers {
 			}
 			list = list.next;
 		}
+		System.out.println();
 	}
 
 }
