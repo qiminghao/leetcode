@@ -1,7 +1,5 @@
 package algorithm;
 
-import java.util.List;
-
 /**
  * 14. Longest Common Prefix
  * 
