@@ -24,8 +24,8 @@ public class SortArrayByParity {
 		SortArrayByParity obj = new SortArrayByParity();
 		int[] A = new int[] { 3, 1, 2, 4 };
 		int[] res = obj.sortArrayByParity(A);
-		for (int i = 0; i < A.length; i++) {
-			System.out.print(A[i] + " ");
+		for (int i = 0; i < res.length; i++) {
+			System.out.print(res[i] + " ");
 		}
 	}
 
