@@ -1,0 +1,14 @@
+{
+    "go.editorContextMenuCommands": {
+        "removeTags": true,
+        "fillStruct": true,
+        "testFile": true,
+        "testPackage": true,
+        "generateTestForFile": true,
+        "generateTestForPackage": true,
+        "benchmarkAtCursor": true
+    },
+    "go.enableCodeLens": {
+        "references": true
+    }
+}
